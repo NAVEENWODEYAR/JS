@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aquamarine;">
+    <h3>String Manipulations </h3>
+
+    <script>
+        // literal template   `${}`
+
+            let a = "Java\" Script";
+            // console.log("Welcome to "+`${a}`);
+
+            //  console.log(a.length);
+            //  console.log(a);
+            //  console.log(a[1]);
+             
+        
+            //console.log("JS" + a);
+           //  console.log(s);
+
+           // concat() - concatenation of string
+
+            // let st = "string1";
+            // let st1 = "string2";
+            // let str2 = st.concat(st1);
+            // console.log(str2);
+
+            //substr() - substring 
+            // let st = "JavaScript";
+            // let st1 = st.substr(4,6);
+            // console.log(st1);
+
+            // substring() - substring
+            let s = "JavaScript is the language of web";
+            // let s1 = s.substring(4);
+            // console.log(s1);
+            
+            // indexOf()
+            // let pos = s.indexOf('web');
+            // console.log(pos);
+            // console.log(s.length);
+
+            // lastIndexOf()
+            let posr = s.lastIndexOf('is');
+            console.log(posr);
+            
+            // trim() - removes white spaces   trimStart(), trimEnd()
+            console.log(s);
+            let st = s.trim();
+            console.log(st);
+
+            // Changing cases toUpperCase(), toLowerCase()
+            console.log(s.toLocaleUpperCase());
+            console.log(s.toLowerCase());
+
+            // Replace string
+            console.log(s.replace('is', 'is the famous'));
+
+            // include
+            console.log(s.includes('html'));
+    </script>
+</body>
+</html>
