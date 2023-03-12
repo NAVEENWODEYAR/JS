@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FOR LOOP </title>
+</head>
+<body>
+    <script>
+        // FOR LOOP. 
+        let num = prompt("Enter a number to proceed")
+        for(let n = 0; n <= num; n++){
+
+            document.write("Counter is " + n );
+            document.write("<br>");
+        }
+
+
+        // FOR - IN LOOP.  to print the browsers navigator object.
+        // Syntax      for (variablename in object){
+        
+            //                  }
+
+        for (properties in navigator){
+            document.write(properties);
+            document.write("<br>");
+        }
+    </script>
+</body>
+</html>
