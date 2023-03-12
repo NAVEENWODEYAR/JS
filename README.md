@@ -1,0 +1,3 @@
+# JS
+JavaScript learning journey...
+The folder contains basic programs and code     
