@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> Events </title>
+    </head>
+    <body>
+            <h2> Events </h2>
+
+            <script>
+                    function myFn() {
+                        document.write("OnClicking");
+                        document.write("<br>")
+                        document.write("Welcome");
+                    }
+            </script>
+
+            <a href="javascript:location.reload(true)">Refresh Page</a> <br><br>   <!--Refreshing web page-->
+            <input type="submit" value="SUBMIT" onclick="myFn()"/><br><br>
+            <input type="submit" value="SUBMIT" onmouseover="myFn()"/><br><br>
+            <input type="submit" value="SUBMIT" onsubmit="myFn()"/><br><br>
+            <input type="submit" value="SUBMIT" onmouseout="myFn()"/><br><br>
+            <input type="submit" value="SUBMIT" ondrag="myFn()"/><br><br>
+
+    </body>
+</html>

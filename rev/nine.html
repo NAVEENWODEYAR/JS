@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Functions </title>
 </head>
-<body style="text-align: center";>
+<body style="text-align: center">
     <h1> Function with return </h1>
     <script>
 
@@ -15,21 +15,22 @@
                 
                     document.write("Addition of numbers");
                     document.write("<br>");
-                    return;
+                    //return;
                     let sum = a + b;
                     document.write("Sum of " + a + " & " + b + " = " + sum);
-                    return;
 
                 }
                  // Calling a function from other function.
                 function addNum1(){
-                    document.write("Calling function addNum from second function");
+                    document.write("Calling function addNum() from second function");
                     document.write("<br>");
                     let r = addNum(2,2);
-                    return;
-                    document.write(r);
+                    //return;
+                    //document.write(r);
                 }
 
     </script>
+
+            <input type="button" onclick="addNum1()" value="Click">
 </body>
 </html>

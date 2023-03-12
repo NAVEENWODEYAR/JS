@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Auto Refresh a webpage using JS function setTimeout() </title>
+    </head>
+
+
+
+    <body onload="Javascript:autoRefresh(1000)">
+
+            <h2>Auto Refreshing the webpage </h2>
+                 <script type="text/javascript">
+                    function autoRefresh(t){
+                        setTimeout("location.reload(true);",t);
+                    }
+                </script>
+
+            <a href="javascript:location.reload(true)">Refresh Page</a> <br><br>   <!--Refreshing web page-->
+
+    </body>
+</html>
